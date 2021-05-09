@@ -8,7 +8,7 @@ public class Runner {
 		Emp1.Name = "Satyam";
 		Emp1.Slary =0;
 		Emp1.Org = "MplGaming";
-		Emp1.Deg = "SDET1";
+		Emp1.Deg = "SDET3";
 		
 		Emp1.Display();
 		
