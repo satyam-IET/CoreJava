@@ -23,11 +23,11 @@ public class Runner {
 		// -----------Class C---------------
 		
 		ClassC Emp4 = new ClassC();
-		Emp4.run(); */
+		Emp4.run(); 
 		
 	   // -----------Fibonci class----------
 		finonaci fab =  new finonaci();
-		fab.fib(); 
+		fab.fib(); */
 		
 		methodOverloading method = new methodOverloading();
 		
@@ -38,6 +38,13 @@ public class Runner {
 		
 		child.dis();
 		child.dis1();
+		
+		abstractionChild Obj3 = new abstractionChild();
+		Obj3.method2();
+		
+		 Encapsulation obj4 = new  Encapsulation();
+		 obj4.setSalary(1000);
+		 System.out.println(obj4.getSalary());
 		
 		
 
