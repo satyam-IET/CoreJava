@@ -4,7 +4,7 @@ public class Runner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ClassA Emp1 = new ClassA(1000, "Vivek", "Tcs" ,"System Engineer");
+		/*ClassA Emp1 = new ClassA(1000, "Vivek", "Tcs" ,"System Engineer");
 		
 		ClassA Emp2 = new ClassA(2000,"Varun","Tcs","Sr System Engineer");
 		
@@ -23,7 +23,21 @@ public class Runner {
 		// -----------Class C---------------
 		
 		ClassC Emp4 = new ClassC();
-		Emp4.run();
+		Emp4.run(); */
+		
+	   // -----------Fibonci class----------
+		finonaci fab =  new finonaci();
+		fab.fib(); 
+		
+		methodOverloading method = new methodOverloading();
+		
+		method.add(1, 7);
+		method.add(2.67, 5.89);
+		
+		methodOverideChild child = new methodOverideChild();
+		
+		child.dis();
+		child.dis1();
 		
 		
 
