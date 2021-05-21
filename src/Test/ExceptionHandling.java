@@ -22,7 +22,7 @@ public class ExceptionHandling {
 		}
 		
 		int myaraay[] = {1,2,3,4};
-		System.out.println(myaraay[6]);
+		
 		try {
 			System.out.println(myaraay[6]);
 		}catch(ArrayIndexOutOfBoundsException e){
