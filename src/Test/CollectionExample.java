@@ -2,6 +2,7 @@ package Test;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Stack;
 
 public class CollectionExample {
 
@@ -23,6 +24,15 @@ public class CollectionExample {
 		Collections.sort(mylist,Collections.reverseOrder());
 		System.out.println("Decending Order");
 		System.out.println(mylist);
+		
+		Stack<String>  mystack = new Stack<String>();
+		
+		mystack.push("Vivek");
+		mystack.push("Arjun");
+		System.out.println("Stack Before pop operation : " + mystack);
+		mystack.pop();
+		mystack.push("Amaan");
+		System.out.println("Stack after pop operation: " + mystack);
 
 	}
 
